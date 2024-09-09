@@ -1,6 +1,6 @@
 import React from 'react'
 import img from './assets/logo torneo 2024.png'
-import './help-us.css'
+import './helpus.css'
 
 function HelpUs() {
     return (
