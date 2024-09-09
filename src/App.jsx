@@ -5,7 +5,7 @@ import Hero from './components/hero/Hero'
 import WhyUs from './components/why-us/why-us'
 import Benefits from './components/benefits/benefits'
 import NextDates from './components/next-dates/next-dates'
-import HelpUs from './components/help-us/Help-us'
+import HelpUs from './components/helpus/Help-us'
 import Footer from './components/footer/footer'
 
 function App() {
