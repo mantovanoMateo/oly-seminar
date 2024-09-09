@@ -1,0 +1,19 @@
+.helpText {
+    max-width: 800px;
+    margin: auto;
+}
+
+.tournamentImg {
+    margin: 50px;
+    border-radius: 5px;
+}
+
+@media (max-width: 700px) {
+    .tournamentImg {
+        max-width: 250px;
+    }
+
+    .helpText{
+        max-width: 270px;
+    }
+}

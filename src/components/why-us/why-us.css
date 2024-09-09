@@ -1,0 +1,58 @@
+.whyUs{
+    color: white;
+    background-color: rgb(22, 22, 22);
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-wrap: wrap;
+    gap: 50px;
+
+    padding-top: 100px;
+    padding-bottom: 100px;
+
+    /* position: absolute;
+    right: 0;*/
+    width: 100%; 
+}
+
+.whyUsInfo{
+    justify-content: left;
+    max-width: 500px;
+    text-align: left;
+}
+
+.whyUsImg{
+    max-width: 590px;
+    border-radius: 5px;
+}
+
+h4{
+    margin-top: 0px;
+    margin-left: 0px;
+    font-size: 30px;
+    margin-bottom: 30px;
+}
+
+p{
+    margin-top: 0px;
+}
+
+@media (max-width: 700px) {
+    h4{
+        text-align: center;
+        margin: 40px;
+    }
+
+    p{
+        text-align: center;
+        margin: 40px;
+    }
+    .whyUsImg {
+        max-width: 250px;
+        margin: auto;
+    }
+
+    .whyUs{
+        padding-top: 0px;
+    }
+}

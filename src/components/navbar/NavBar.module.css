@@ -1,0 +1,35 @@
+.navbar {
+    width: 100%;
+    display: flex;
+    justify-content: right;
+    margin: 0px;
+    padding: 0px;
+}
+
+.navul {
+    display: flex;
+    list-style: none;
+}
+
+.navlink {
+    margin: 10px;
+    margin-left: 15px;
+    font-size: 23px;
+    text-decoration: none;
+    color: white;
+    padding: 8px;
+    padding-left: 15px;
+    padding-right: 15px;
+    transition: all 0.4s ease-in-out;
+    border-radius: 5px;
+}
+
+.navlink :hover{
+    background-color: rgba(0, 0, 0, 0.514);
+}
+
+@media (max-width: 700px) {
+    .navbar{
+        display: none;
+    }
+}

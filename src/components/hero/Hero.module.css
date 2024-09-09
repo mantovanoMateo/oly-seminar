@@ -1,0 +1,82 @@
+video{
+    max-width: 100%;
+    position: absolute;
+    right: 0;
+    top: 0;
+    z-index: -1;
+    filter: brightness(50%);
+}
+
+h1{
+    max-width: 1000px;
+    text-align: left;
+    margin-left: 50px;
+    font-size: 65px;
+    margin-bottom: 0px;
+
+    color: white;
+    text-shadow: 1px 5px 20px #242424;
+}
+
+h2{
+    text-align: left;
+    margin-left: 50px;
+    max-width: 500px;
+
+    font-weight: 400;
+}
+
+.contactBtn{
+    text-align: left;
+    background-color: black;
+    padding: 10px;
+    padding-left: 15px;
+    padding-right: 15px;
+    text-decoration: none;
+
+    font-size: 20px;
+    color: white;
+    transition: all 0.4s ease-in-out;
+    border-radius: 5px;
+
+    margin-left: 50px;
+}
+
+.contactBtn :hover{
+    background-color: white;
+}
+
+a:hover{
+    background-color: white;
+    color: black;
+}
+
+.contactDiv{
+    display: flex;
+    justify-content: left;
+    align-items: center;
+
+    width: 100%;
+}
+
+@media (max-width: 700px){
+    h1{
+        font-size: 20px;
+        margin-top: 250px;
+        margin-left: 20px;
+    }
+
+    h2{
+        font-size: 16px;
+        margin-left: 20px;
+    }
+
+    .contactBtn{
+        margin: auto;
+        margin-top: 30px;
+        font-size: 16px;
+
+        color: black;
+        background-color: white;
+    }
+}
