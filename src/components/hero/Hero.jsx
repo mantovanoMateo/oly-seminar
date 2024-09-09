@@ -1,5 +1,5 @@
 import React from 'react'
-import video from './assets/0903.mp4'
+import video from './assets/0903.webm'
 import styles from './Hero.module.css'
 
 function Hero() {
