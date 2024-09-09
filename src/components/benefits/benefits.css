@@ -49,6 +49,10 @@
 @media (max-width: 700px) {
     .seminarIndexPhoto {
         max-width: 250px;
+        max-width: none;
+        width: 100%;
+        margin: auto;
+        border-radius: 0px;
     }
 
     .benefitsParagraf{
